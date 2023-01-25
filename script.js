@@ -10,8 +10,7 @@ function threeSum(arr, target) {
             { 
                 if (arr[i] + arr[j] + arr[k] == target) 
                 { 
-                    document.write(arr[i]+arr[j]+arr[k]); 
-                    return true; 
+                    return (arr[i]+arr[j]+arr[k]); 
                 } 
             } 
         } 
